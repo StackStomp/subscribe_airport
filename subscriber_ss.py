@@ -1,7 +1,7 @@
 import base64
 import requests
 import re
-from urllib.parse import unquote_plus, quote_plus
+from urllib.parse import unquote_plus
 
 
 class Shadowsocks:
