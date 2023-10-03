@@ -7,6 +7,15 @@ from urllib.parse import unquote_plus
 class Shadowsocks:
     def __init__(self):
         self.type = "ss"
+        # alg
+        # password
+        # port
+        # ip
+        # url
+        # desc
+
+    def __str__(self):
+        return f"type: {self.type}, desc: {self.desc}"
 
 
 class SsSubscriber:
